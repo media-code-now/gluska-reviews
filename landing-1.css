@@ -63,6 +63,8 @@ a:hover{
 }
 
 .background {
+  background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(91,130,176,1) 0%, rgba(22,185,44,0.4318321078431373) 100%);
     position: fixed;
     top: 0;
     left: 0;
@@ -72,7 +74,7 @@ a:hover{
 }
 
 .background_image {
-    background-image: url(https://static.cdn.phobos.id/assets/svg/black_wallpaper.svg);
+    /* background-image: url(https://static.cdn.phobos.id/assets/svg/black_wallpaper.svg); */
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -168,8 +170,7 @@ a:hover{
     justify-content: center;
     border-radius: .375rem;
     opacity: 1;
-    background-color: rgba(var(--link-background), 1);
-    color: rgba(var(--link-color), 1);
+    background-color: #000;
     border-radius: 9999px
 }
 
@@ -178,9 +179,11 @@ a:hover{
 }
 
 .social_icon {
-    max-width: 60%;
+
+    max-width: 100%;
     height: auto;
-    filter: invert(16%) sepia(1%) saturate(35%) hue-rotate(314deg) brightness(97%) contrast(87%)
+
+    /* filter: invert(16%) sepia(1%) saturate(35%) hue-rotate(314deg) brightness(97%) contrast(87%) */
 }
 
 .container_link {
